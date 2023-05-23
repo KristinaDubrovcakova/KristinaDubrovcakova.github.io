@@ -5,3 +5,9 @@
 .date {
   min-width: 18rem;
 }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  
+  background: rgba(207, 221, 187);
+}

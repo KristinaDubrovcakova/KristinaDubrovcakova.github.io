@@ -8,18 +8,19 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
   <link rel="stylesheet" href="main.css">
+  
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body data-spy="scroll" data-target=".navbar" data-offset="50" >
 
   <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
-    <a class="navbar-brand" href="#">Blog Dubrovcakova</a>
+    <a class="navbar-brand" href="#">Životopis Dubrovcakova</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <div class="collapse navbar-collapse " id="collapsibleNavbar">
       <ul class="navbar-nav">
-        <li class="nav-item">
+        <li class="nav-item ">
           <a class="nav-link" href="#about">O mne</a>
         </li>
         <li class="nav-item">
@@ -45,7 +46,7 @@
 
   <div class="container mt-5">
     <section id = "about">
-    <div class="card mb-3" style="max-width: 500px;">
+    <div class="card mb-3 justify-content-center align-items-center" style="max-width: 700px;">
       <div class="row g-0">
         <div class="col-md-4">
           <img src="img/image.png" class="img-fluid rounded-start" alt="">
@@ -56,8 +57,8 @@
             <div class="subheading">
               Ondrej 82 · Hôrka,  05912 · 0907749546 · kristina.dubrovcakova@gmail.com
             </div>
-            <p class="card-text">Volám sa Kristína Dubrovčáková a Vítam ťa na mojom blogu!
-              Mám 17 rokov, chodím na SSOSTU a študujem odbor inteligentné technológie. </p>
+            <p class="card-text">Volám sa Kristína Dubrovčáková,
+              mám 17 rokov, chodím na SSOSTU a študujem odbor inteligentné technológie. </p>
             
           </div>
         </div>
@@ -68,86 +69,100 @@
 
     <section id="experience">
       <h2>Skúsenosti</h2>
-      <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
-        <div>
-          <h3>Senior Web Developer</h3>
-          <div class="subheading">Intelitec Solutions</div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam volutpat sapien ac facilisis efficitur. Integer faucibus
-            eros congue arcu volutpat, et consequat lectus placerat. Donec pellentesque turpis sit amet elit rutrum tincidunt.
-            Etiam eget rutrum dolor. Curabitur auctor vel purus in faucibus. Fusce pellentesque eros venenatis, suscipit
-            ex quis, facilisis nunc. In in turpis ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-            dolor mi, rhoncus sed lorem eget, feugiat mattis risus. Praesent nibh velit, dapibus vitae nulla ut, tempus accumsan
-            ipsum.
-          </p>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="date text-md-right">March 2013 - Present</div>
-      </div>
-      <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
-        <div>
-          <h3>Web Developer</h3>
-          <div class="subheading">Intelitec Solutions</div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam volutpat sapien ac facilisis efficitur. Integer faucibus
-            eros congue arcu volutpat, et consequat lectus placerat. Donec pellentesque turpis sit amet elit rutrum tincidunt.
-            Etiam eget rutrum dolor. Curabitur auctor vel purus in faucibus. Fusce pellentesque eros venenatis, suscipit
-            ex quis, facilisis nunc. In in turpis ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-            dolor mi, rhoncus sed lorem eget, feugiat mattis risus. Praesent nibh velit, dapibus vitae nulla ut, tempus accumsan
-            ipsum.
-          </p>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="img/104_510107298.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/group-kids-friends-arm-around-sitting-together.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/IMG_3538.JPG" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
         </div>
-        <div class="date text-md-right">December 2011 - March 2013</div>
-      </div>
-      <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
-        <div>
-          <h3>Junior Web Designer</h3>
-          <div class="subheading">SHOUT!</div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam volutpat sapien ac facilisis efficitur. Integer faucibus
-            eros congue arcu volutpat, et consequat lectus placerat. Donec pellentesque turpis sit amet elit rutrum tincidunt.
-            Etiam eget rutrum dolor. Curabitur auctor vel purus in faucibus. Fusce pellentesque eros venenatis, suscipit
-            ex quis, facilisis nunc. In in turpis ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-            dolor mi, rhoncus sed lorem eget, feugiat mattis risus. Praesent nibh velit, dapibus vitae nulla ut, tempus accumsan
-            ipsum.
-          </p>
-        </div>
-        <div class="date text-md-right">July 2010 - December 2011</div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </section>
 
     <section id="education">
-      <h2>Vzdelanie</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam volutpat sapien ac facilisis efficitur. Integer faucibus
-        eros congue arcu volutpat, et consequat lectus placerat. Donec pellentesque turpis sit amet elit rutrum tincidunt.
-        Etiam eget rutrum dolor. Curabitur auctor vel purus in faucibus. Fusce pellentesque eros venenatis, suscipit ex quis,
-        facilisis nunc. In in turpis ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dolor mi,
-        rhoncus sed lorem eget, feugiat mattis risus. Praesent nibh velit, dapibus vitae nulla ut, tempus accumsan ipsum.
-      </p>
-    </section>
+    <div class=" card text-center">
+      <div class="card-body">
+        <h5 class="card-title">Vzdelanie</h5>
+        <p class="card-text"> Od roku 2021 navštevujem SSOSTU a druhý rok študujem odbor inteligentné technológie.Ako absolvent študijného odboru inteligentné technológie  by som mala byť kvalifikovaná odborná pracovníčka, ktorá má vedomosti a zručnosti z oblasti informačných technológií, programovania, počítačových sietí, smart technológií, internetu vecí - IoT, databázových systémov, kybernetickej bezpečnosti, robotiky, 3D technológií, virtuálnej reality, z  aplikovania prvkov umelej inteligencie v rôznych oblastiach, serverových a cloudových technológií, grafiky, základov elektroniky, optimalizácie riadenia procesov a problematiky súvisiacej s digitálnou firmou.
+        </p>
+        <a href="https://ssosta.edupage.org/a/studijne-programy?eqa=dGV4dD10ZXh0L3RleHQxJnN1YnBhZ2U9Mg%3D%3D" class="btn btn-secondary">zistiť viac</a>
+      </div>
+    </div>
+  </section>
 
     <section id="skills">
+      <div class="container text-center text-black">
+        <div class="row justify-conten-center align-items-center ">
+          <div class="col-md-12 text-black text-center">
       <h2>Zručnosti</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam volutpat sapien ac facilisis efficitur. Integer faucibus
-        eros congue arcu volutpat, et consequat lectus placerat. Donec pellentesque turpis sit amet elit rutrum tincidunt.
-        Etiam eget rutrum dolor. Curabitur auctor vel purus in faucibus. Fusce pellentesque eros venenatis, suscipit ex quis,
-        facilisis nunc. In in turpis ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dolor mi,
-        rhoncus sed lorem eget, feugiat mattis risus. Praesent nibh velit, dapibus vitae nulla ut, tempus accumsan ipsum.
-      </p>
-      
+      <div class="d-grid gap-2 col-14 mx-auto">
+        <button class="btn btn-light" type="button">HTML - 7/10</button>
+        <button class="btn btn-light" type="button">CSS - 7/10</button>
+        <button class="btn btn-light" type="button">PHP - 4/10</button>
+        <button class="btn btn-light" type="button">MYSQL - 6/10 </button>
+      </div><br>
+      <div class="d-grid gap-1 col-12 mx-auto">
+        <button class="btn btn-light" type="button">Anglický jazyk - B2</button>
+        <button class="btn btn-light" type="button">Slovenský jazyk - C1 </button>
+      </div><br>
+      <div class="d-grid gap-2 col-14 mx-auto">
+        <button class="btn btn-light" type="button">EXCEL - 4/10</button>
+        <button class="btn btn-light" type="button">Word - 6/10 </button>
+        <button class="btn btn-light" type="button">POWER POINT - 9/10 </button>
+        
+      </div><br>
+      <div class="d-grid gap-1 col-12 mx-auto">
+        <button class="btn btn-light" type="button">Python - 4/10 </button>
+        <button class="btn btn-light" type="button">JS - začiatočník</button>
+      </div><br>
     </section>
+    
     
 
     <section id="contact">
+      <div class="container text-center text-black">
+        <div class="row justify-conten-center align-items-center ">
+          <div class="col-md-12 text-black text-center">
       <h2>Záujmi</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam volutpat sapien ac facilisis efficitur. Integer faucibus
-        eros congue arcu volutpat, et consequat lectus placerat. Donec pellentesque turpis sit amet elit rutrum tincidunt.
-        Etiam eget rutrum dolor. Curabitur auctor vel purus in faucibus. Fusce pellentesque eros venenatis, suscipit ex quis,
-        facilisis nunc. In in turpis ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dolor mi,
-        rhoncus sed lorem eget, feugiat mattis risus. Praesent nibh velit, dapibus vitae nulla ut, tempus accumsan ipsum.
-      </p>
+      
+      <p>Hrajem na klavír 10 rokov <br>
+        Rada čítam knihy  <br>
+        Hrajem volleyball <br>
+        Rada varím <br>
+        Cestovanie <br>
+
+
+ </p>
     </section>
 
     <section id="contact">  
@@ -167,8 +182,8 @@
               <div class="input-group">
                 <span class="input-group-text">Správa</span>
                 <textarea class="form-control" aria-label="With textarea" name="message" placeholder="Tu napíśte vašu správu"></textarea>
-              </div> <br>
-              <button type="submit" name="submit" class="btn btn-info">Odošli</button> <br>
+              </div> <br> 
+              <button type="submit" name="submit" class="btn btn-outline-light">Odošli</button><br>
               </form>
               <footer class="p-4" style="color: #000000;">Vytvoril: Kristína Dubrovčáková 2023</footer>
             </div>
@@ -182,7 +197,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
 
 </html>
