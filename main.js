@@ -5,11 +5,15 @@ $(document).ready(function () {
 async function handleSubmit(event) {
   event.preventDefault();
   console.log("Input Meno:", $('#first_name'). val());
-  console.log("Input Email:", $('#first_name'). val());
+  console.log("Input E-mailova adresa:", $('#email'). val());
   console.log("Input Správa:", $('#message'). val());
 
-  var msg = $('#msg').val();
-  var email = $('#email').val();
+  const requestBody = {
+    systemEmail: 'kritina.dubrovcakova@gmail.com',
+    contactEmail:$('#email').val(),
+  
+    message:$('#message').val(),
+  };
   
   console.log(msg);
 }
@@ -22,11 +26,7 @@ form.addEventListener('submit', (e) => {
   const email = document.getElementById('email').value;
   const message = document.getElementById('exampleFormControlTextarea1').value;
 
-  const requestBody = {
-    systemEmail: 'vas.email.kde@vam.pride.text.z.formulara',
-    contactEmail: email,
-    message: message
-  };
+
 
   fetch('https://emailsenderitweek.azurewebsites.net/api/ContactForm', {
     method: 'POST',
