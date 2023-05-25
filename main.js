@@ -2,8 +2,11 @@ $(document).ready(function () {
   $("form").submit(handleSubmit);
 });
 
-function handleSubmit(event) {
+async function handleSubmit(event) {
   event.preventDefault();
+  console.log("Input Meno:", $('#first_name'). val());
+  console.log("Input Email:", $('#first_name'). val());
+  console.log("Input Správa:", $('#message'). val());
 
   var msg = $('#msg').val();
   var email = $('#email').val();

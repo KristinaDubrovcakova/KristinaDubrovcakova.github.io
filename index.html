@@ -251,19 +251,16 @@
               <h2 class="text-black">Kontakt</h2> <br>
             <form method="post" action="formular.php" >
               <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Meno" id="first_name" name="first_name" aria-label="Username">
+                <input type="text" class="form-control" placeholder="Meno" id="first_name"  aria-label="Username" required>
               </div>
               <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Priezvisko"id="last_name" name="last_name" aria-label="Username">
-              </div>
-              <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="E-mailova adresa" id="email" name="email" aria-label="Username">
+                <input type="text" class="form-control" placeholder="E-mailova adresa" id="email" aria-label="Username" required>
               </div> <br>
               <div class="input-group">
                 <span class="input-group-text">Správa</span>
-                <textarea class="form-control" aria-label="With textarea" name="message" placeholder="Tu napíśte vašu správu"></textarea>
+                <textarea class="form-control" aria-label="With textarea" id="message" placeholder="Tu napíśte vašu správu" required></textarea>
               </div> <br> 
-              <button type="submit" name="submit" id="submit" class="btn btn-outline-secondary">Odošli</button><br>
+              <button type="submit" name="submit"  class="btn btn-outline-secondary">Odošli</button><br>
               </form>
               <footer class="p-4" style="color: #000000;">Vytvoril: Kristína Dubrovčáková 2023</footer>
             </div>
