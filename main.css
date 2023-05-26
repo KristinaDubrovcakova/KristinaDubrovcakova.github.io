@@ -18,3 +18,11 @@ body {
   align-items: center;
   margin-top: 5rem;
 }
+.btn {
+  margin-bottom: 0.5rem;
+}
+.skusenosti{
+  display: flex;
+  justify-content:center;
+  
+}
